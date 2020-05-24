@@ -1,0 +1,18 @@
+<div class="container">
+    <div class="row ">
+        <div class="col-lg-7">
+            <h1>Enter The Credentials</h1>
+
+        </div>
+    </div>
+</div>
+
+<form (ngSubmit)="save()">
+    <label class=""> Enter city</label>
+    <input type="text" [(ngModel)]="city" class="form-control" name="city" required />
+    <br>
+    <button class="btn btn-primary">
+        Submit
+    </button>
+
+</form>
